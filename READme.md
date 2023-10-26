@@ -1,4 +1,4 @@
-### POC Service Mesh c Istion
+# POC Service Mesh c Istion
 
 Utilizando k3d, uma versão simples pro k8s.
 https://k3d.io/v5.6.0/
@@ -16,7 +16,7 @@ k3d cluster create -p "8000:30000@loadbalancer" --agents 2
 
 kubectl config use-context k3d-k3s-default
 
-# p usar o cluster criado via cli
+### p usar o cluster criado via cli
 
 
 istio  --> https://istio.io/
