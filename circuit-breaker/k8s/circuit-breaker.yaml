@@ -7,7 +7,7 @@ spec:
   trafficPolicy:
     outlierDetection:
       # consecutive5xxErrors: 20
-      consecutiveGatewayErrors: 10
+      consecutiveGatewayErrors: 10 #p erros 502, 503, 504
       interval: 20s
       baseEjectionTime: 30s
       maxEjectionPercent: 100
